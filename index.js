@@ -118,10 +118,12 @@ userQueue(["Shirley","Bilha","Abwoi","Joan"])
 
   //QUESTION 8
   function retakes(studentScore){
-    do { console.log(`You have scored ${studentScore}`);
+    let attempt=1
+    do { console.log(`You have scored ${studentScore} in attempt ${attempt}`);
     studentScore +=10
+    attempt++
     }
     while(studentScore<=50)
   }
-  retakes(10);
+  retakes(20);
 
